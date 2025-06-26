@@ -1,0 +1,140 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #F5F5F2; /* slightly off-white background to keep warm neutral feel */
+  color: #4A4A4A; /* medium grey text */
+}
+
+.resume {
+  width: 210mm;
+  height: 297mm;
+  margin: auto;
+  background: #FFF; /* white background for the resume */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.name-title {
+  text-align: center;
+  width: 100%;
+}
+
+/* Headings use Primary dark brown */
+h1, h2 {
+  letter-spacing: 1px;
+  color: #4B3832; /* Primary dark brown */
+}
+
+.header-content {
+  display: flex;
+  justify-content: center; /* Centers child horizontally */
+  align-items: center;     /* Optional: vertical alignment */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #4B3832; /* Primary dark brown */
+  font-weight: bold;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #4A4A4A; /* medium grey */
+}
+
+.header {
+  background: #D8C3A5; /* Accent soft beige */
+  padding: 40px 40px 40px;
+  text-align: center;
+}
+
+.first-name {
+  font-weight: 700;
+}
+
+.last-name {
+  font-weight: 400;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* .header .image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #D8C3A5; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+*/
+
+.main {
+  padding: 30px 40px;
+  display: flex;
+}
+
+.left {
+  width: 35%;
+  padding-right: 30px;
+  border-right: 1px solid #EAE7DC; 
+}
+
+.right {
+  width: 65%;
+  padding-left: 30px;
+} 
+
+h2 {
+  font-size: 18px;
+  color: #4B3832; /* Primary dark brown */
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+h3 {
+  margin: 10px 0 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4B3832; /* Primary dark brown */
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #4A4A4A; /* medium grey */
+  margin-top: 4px; 
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0 0 10px;
+}
+
+li {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #4A4A4A; /* medium grey */
+}
+
+.skills ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid #EAE7DC; /* light cream divider */
+  margin: 10px 0;
+}
